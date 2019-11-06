@@ -15,3 +15,8 @@ nombres.forEach(nombre => {
 } */
 
 console.log(somme);
+
+// Autre solution alternative :
+// const reducer = (accumulator, currentValue) => accumulator + currentValue;
+
+// console.log(nombres.reduce(reducer));
